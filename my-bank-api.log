@@ -1,0 +1,174 @@
+2022-07-12T00:44:42.234Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-12T00:46:12.265Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-12T00:47:06.060Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-12T00:47:55.717Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-12T00:48:12.793Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-12T00:48:37.401Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-12T00:49:00.312Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-12T00:49:54.285Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-12T00:50:34.017Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-12T00:50:35.657Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-12T00:50:36.933Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-12T00:50:42.801Z [my-bank-api] - info: GET /account success called!
+2022-07-12T00:50:47.556Z [my-bank-api] - info: POST /account - {"id":2,"balance":221,"asd":"asdas"}
+2022-07-12T00:50:50.940Z [my-bank-api] - info: POST /account - {"id":2,"name":"bruce banner","balance":233}
+2022-07-12T00:50:57.022Z [my-bank-api] - info: POST /account - {"id":103,"name":"bruce banner","balance":233,"status":"success"}
+2022-07-12T00:59:44.709Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-12T01:00:28.508Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-12T01:00:28.543Z [my-bank-api] - error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/node_modules/express/lib/application.js:635:24)
+    at file:///home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/index.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:170:25)
+    at async Loader.import (internal/modules/esm/loader.js:178:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2022-07-12T01:00:30.775Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-12T01:00:30.776Z [my-bank-api] - error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/node_modules/express/lib/application.js:635:24)
+    at file:///home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/index.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:170:25)
+    at async Loader.import (internal/modules/esm/loader.js:178:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2022-07-12T01:00:46.803Z [my-bank-api] - info: POST /account - {"id":103,"name":"bruce banner","balance":233,"status":"success"}
+2022-07-12T01:00:49.664Z [my-bank-api] - info: POST /account - {"id":104,"name":"bruce banner","balance":233,"status":"success"}
+2022-07-12T01:02:50.096Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-12T01:02:50.108Z [my-bank-api] - error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/node_modules/express/lib/application.js:635:24)
+    at file:///home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/index.js:60:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:170:25)
+    at async Loader.import (internal/modules/esm/loader.js:178:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2022-07-12T01:04:55.506Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-12T01:04:55.516Z [my-bank-api] - error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/node_modules/express/lib/application.js:635:24)
+    at file:///home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/index.js:60:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:170:25)
+    at async Loader.import (internal/modules/esm/loader.js:178:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2022-07-12T01:04:58.986Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-12T01:04:58.991Z [my-bank-api] - error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/node_modules/express/lib/application.js:635:24)
+    at file:///home/daedalus/Documents/nodeJs/bootcamp/my-bank-api/index.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:170:25)
+    at async Loader.import (internal/modules/esm/loader.js:178:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2022-07-20T00:21:57.505Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:22:00.819Z [my-bank-api] - error: POST /account Name and Balance are required!
+2022-07-20T00:22:05.027Z [my-bank-api] - info: POST /account - {"id":103,"name":"bruce banner","balance":233,"status":"success"}
+2022-07-20T00:22:34.166Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:23:15.976Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:23:42.990Z [my-bank-api] - info: POST /account - {"id":104,"name":"bruce banner","balance":233,"status":"success"}
+2022-07-20T00:23:50.091Z [my-bank-api] - info: POST /account - {"id":105,"name":"bruce banner322","balance":233,"status":"success"}
+2022-07-20T00:23:55.590Z [my-bank-api] - info: GET /account success called!
+2022-07-20T00:25:34.993Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:25:35.841Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:25:36.394Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:25:54.138Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:26:06.467Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:26:49.944Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:27:22.070Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:28:51.911Z [my-bank-api] - error: PUT /account Name and Balance are required!
+2022-07-20T00:29:14.304Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:29:20.105Z [my-bank-api] - error: PUT /account Name and Balance are required!
+2022-07-20T00:29:32.451Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:29:35.366Z [my-bank-api] - error: PUT /account Id, Name and Balance are required!
+2022-07-20T00:31:09.550Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:31:17.483Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:32:10.073Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:34:48.450Z [my-bank-api] - error: DELETE /account index is not defined
+2022-07-20T00:35:26.773Z [my-bank-api] - error: DELETE /account index is not defined
+2022-07-20T00:35:32.183Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:35:35.131Z [my-bank-api] - error: DELETE /account id is not defined
+2022-07-20T00:35:42.425Z [my-bank-api] - error: DELETE /account id is not defined
+2022-07-20T00:35:47.082Z [my-bank-api] - error: DELETE /account id is not defined
+2022-07-20T00:35:56.673Z [my-bank-api] - error: DELETE /account id is not defined
+2022-07-20T00:36:18.861Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:36:22.011Z [my-bank-api] - info: DELETE /account success called! deleting the 97 object
+2022-07-20T00:36:29.348Z [my-bank-api] - info: DELETE /account success called! deleting the 123991828390129839 object
+2022-07-20T00:36:31.171Z [my-bank-api] - info: DELETE /account success called! deleting the 123991828390129839 object
+2022-07-20T00:36:32.078Z [my-bank-api] - info: DELETE /account success called! deleting the 123991828390129839 object
+2022-07-20T00:36:32.242Z [my-bank-api] - info: DELETE /account success called! deleting the 123991828390129839 object
+2022-07-20T00:36:32.402Z [my-bank-api] - info: DELETE /account success called! deleting the 123991828390129839 object
+2022-07-20T00:36:32.585Z [my-bank-api] - info: DELETE /account success called! deleting the 123991828390129839 object
+2022-07-20T00:36:32.700Z [my-bank-api] - info: DELETE /account success called! deleting the 123991828390129839 object
+2022-07-20T00:36:52.104Z [my-bank-api] - info: DELETE /account success called! deleting the -1 object
+2022-07-20T00:36:54.057Z [my-bank-api] - info: DELETE /account success called! deleting the -1 object
+2022-07-20T00:36:54.796Z [my-bank-api] - info: DELETE /account success called! deleting the -1 object
+2022-07-20T00:36:55.537Z [my-bank-api] - info: DELETE /account success called! deleting the -1 object
+2022-07-20T00:36:55.730Z [my-bank-api] - info: DELETE /account success called! deleting the -1 object
+2022-07-20T00:36:55.943Z [my-bank-api] - info: DELETE /account success called! deleting the -1 object
+2022-07-20T00:36:56.098Z [my-bank-api] - info: DELETE /account success called! deleting the -1 object
+2022-07-20T00:37:06.247Z [my-bank-api] - info: DELETE /account success called! deleting the 1 object
+2022-07-20T00:37:09.422Z [my-bank-api] - info: GET /account success called!
+2022-07-20T00:37:16.374Z [my-bank-api] - info: DELETE /account success called! deleting the -2 object
+2022-07-20T00:37:18.911Z [my-bank-api] - info: GET /account success called!
+2022-07-20T00:38:04.585Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:39:38.181Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:39:56.131Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:40:00.239Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:40:03.606Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:40:12.894Z [my-bank-api] - error: DELETE /account Cannot read property 'find' of undefined
+2022-07-20T00:43:27.468Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:43:32.504Z [my-bank-api] - error: DELETE /account Cannot read property 'map' of undefined
+2022-07-20T00:45:39.087Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:45:43.975Z [my-bank-api] - error: DELETE /account Cannot read property 'id' of undefined
+2022-07-20T00:45:55.420Z [my-bank-api] - error: DELETE /account Cannot read property 'id' of undefined
+2022-07-20T00:45:59.374Z [my-bank-api] - error: DELETE /account Cannot read property 'id' of undefined
+2022-07-20T00:46:04.035Z [my-bank-api] - info: GET /account success called!
+2022-07-20T00:46:27.057Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:46:30.777Z [my-bank-api] - error: DELETE /account Cannot read property 'id' of undefined
+2022-07-20T00:46:37.164Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:46:41.106Z [my-bank-api] - info: DELETE /account success called! deleting the 3 object
+2022-07-20T00:48:43.332Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:48:47.270Z [my-bank-api] - error: DELETE /account element is not defined
+2022-07-20T00:51:24.443Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:51:27.772Z [my-bank-api] - info: DELETE /account success called! deleting the 3 object
+2022-07-20T00:52:16.096Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:52:17.854Z [my-bank-api] - info: DELETE /account success called! deleting the 3 object
+2022-07-20T00:52:26.316Z [my-bank-api] - info: DELETE /account success called! deleting the 3 object
+2022-07-20T00:52:32.943Z [my-bank-api] - info: GET /account success called!
+2022-07-20T00:52:40.885Z [my-bank-api] - info: DELETE /account success called! deleting the 4 object
+2022-07-20T00:52:54.920Z [my-bank-api] - info: DELETE /account success called! deleting the 4 object
+2022-07-20T00:53:18.059Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:53:20.883Z [my-bank-api] - info: DELETE /account success called! deleting the 4 object
+2022-07-20T00:53:23.476Z [my-bank-api] - info: DELETE /account success called! deleting the 4 object
+2022-07-20T00:53:26.107Z [my-bank-api] - info: GET /account success called!
+2022-07-20T00:54:05.128Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:54:09.993Z [my-bank-api] - info: DELETE /account success called! deleting the 6 object
+2022-07-20T00:54:16.543Z [my-bank-api] - info: GET /account success called!
+2022-07-20T00:54:35.056Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:54:38.774Z [my-bank-api] - info: DELETE /account success called! deleting the 6 object
+2022-07-20T00:55:09.358Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:55:19.366Z [my-bank-api] - info: DELETE /account success called! deleting the 7 object
+2022-07-20T00:55:23.350Z [my-bank-api] - info: DELETE /account success called! deleting the 7 object
+2022-07-20T00:56:36.177Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:56:38.859Z [my-bank-api] - error: DELETE /account Object not found!
+2022-07-20T00:56:45.011Z [my-bank-api] - info: DELETE /account success called! deleting the 8 object
+2022-07-20T00:56:46.406Z [my-bank-api] - error: DELETE /account Object not found!
+2022-07-20T00:57:04.513Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:57:12.024Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:57:26.023Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:57:30.579Z [my-bank-api] - info: DELETE /account success called! deleting the 9 object
+2022-07-20T00:57:37.331Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-20T00:57:39.679Z [my-bank-api] - error: DELETE /account Object not found!
+2022-07-20T00:57:46.693Z [my-bank-api] - info: DELETE /account success called! deleting the 10 object
+2022-07-20T01:09:53.728Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
