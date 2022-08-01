@@ -172,3 +172,29 @@ Error: listen EADDRINUSE: address already in use :::3000
 2022-07-20T00:57:39.679Z [my-bank-api] - error: DELETE /account Object not found!
 2022-07-20T00:57:46.693Z [my-bank-api] - info: DELETE /account success called! deleting the 10 object
 2022-07-20T01:09:53.728Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-07-26T23:59:28.073Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-26T23:59:46.677Z [my-bank-api] - info: GET /account success called!
+2022-07-27T00:04:53.003Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-27T00:10:45.859Z [my-bank-api] - info: GET /account success called!
+2022-07-27T00:12:20.977Z [my-bank-api] - info: GET /account success called!
+2022-07-27T00:13:29.272Z [my-bank-api] - info: GET /account success called!
+2022-07-27T00:21:04.722Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-27T00:21:09.347Z [my-bank-api] - info: GET /account success called!
+2022-07-27T00:21:10.329Z [my-bank-api] - info: GET /account success called!
+2022-07-27T00:21:11.103Z [my-bank-api] - info: GET /account success called!
+2022-07-27T00:21:17.312Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-07-27T00:21:18.753Z [my-bank-api] - info: GET /account success called!
+2022-07-27T01:13:08.367Z [my-bank-api] - info: API Started! listen on http://localhost:3000, FIle Created!
+2022-08-01T20:56:09.093Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T21:22:51.990Z [my-bank-api] - info: GET /account success called!
+2022-08-01T21:23:14.280Z [my-bank-api] - info: GET /account success called!
+2022-08-01T21:27:31.017Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T21:28:02.275Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T21:32:28.340Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T21:33:16.765Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T21:33:40.404Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T21:34:33.744Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T21:35:17.922Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T21:35:38.265Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T21:36:10.211Z [my-bank-api] - info: GET /account success called!
+2022-08-01T21:36:32.092Z [my-bank-api] - info: API Started! listen on http://localhost:3000

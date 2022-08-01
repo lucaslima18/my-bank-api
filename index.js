@@ -2,6 +2,9 @@ import express from "express"
 import winston from "winston"
 import accountsRouter from "./routes/accounts.js"
 import {promises as fs} from "fs"
+import cors from "cors"
+import swaggerUi from "swagger-ui-express"
+import { swaggerDocument } from "./doc.js"
 
 const app = express()
 const port = 3000
@@ -33,9 +36,22 @@ global.logger = winston.createLogger({
     )
 })
 
+//servindo arquivo fake para teste de cors
+app.use(express.static("public"))
+
 // para que o express utilize json
 app.use(express.json())
+
+//para evitar erros de cors
+app.use(cors())
+
+//servindo documentação via swagger 
+app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument))
+
+//importando rotas principais da api
 app.use("/account", accountsRouter)
+
+
 
 
 /**
