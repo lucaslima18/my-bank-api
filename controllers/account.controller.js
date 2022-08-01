@@ -1,12 +1,8 @@
-import express from "express"
 import {promises as fs} from "fs"
 
 const {readFile, writeFile} = fs
-const router = express.Router()
 
-global.fileName = "accounts.json"
-
-router.post("/", async (req, res, next) => {
+async function createAccount(req, res, next) {
     try{
         let account = req.body
 
@@ -30,10 +26,9 @@ router.post("/", async (req, res, next) => {
     }
 
     res.end()
-})
+}
 
-
-router.get("/", async (req, res, next) => {
+async function getAccounts(_, res, next) {
     try {
         const data = JSON.parse(await readFile(global.fileName))
         delete data.nextId
@@ -46,10 +41,9 @@ router.get("/", async (req, res, next) => {
         next(err)
 
     }
-})
+}
 
-
-router.get("/:id", async (req, res, next) => {
+async function getAccount(req, res, next) {
     try {
         const data = JSON.parse(await readFile(global.fileName))
         const userById = data.accounts.find(account => account.id === parseInt(req.params.id))
@@ -63,10 +57,9 @@ router.get("/:id", async (req, res, next) => {
         next(err)
 
     }
-})
+}
 
-
-router.delete("/:id", async (req, res, next) => {
+async function deleteAccount(req, res, next) {
     try {
         const data = JSON.parse(await readFile(global.fileName))
         const account_exist = data.accounts.find(account => account.id == req.params.id)
@@ -84,22 +77,19 @@ router.delete("/:id", async (req, res, next) => {
         next(err)
         
     }
+}
 
-})
-
-
-//put é utilizado para atualizar o recurso de forma integral
-router.put("/", async (req, res, next) => {
+async function updateAccount(req, res, next) {
     try {
         const account = req.body
         const data = JSON.parse(await readFile(global.fileName))
-        const index = data.accounts.findIndex(content => content.id === account.id)
+        const index = data.accounts.findIndex(content => content.id == account.id)
         
         if(!account.name || account.balance == null || account.id == null) throw new Error("Id, Name and Balance are required!")
         if(index === -1) throw new Error("This object not exists!")
 
         data.accounts[index].name = account.name
-        data.account[index].balance = account.balance
+        data.accounts[index].balance = account.balance
 
         await writeFile(global.fileName, JSON.stringify(data))
 
@@ -110,11 +100,9 @@ router.put("/", async (req, res, next) => {
     } catch (err) {
         next(err)
     }
-})
+}
 
-
-//patch é utilizado para atualizar o recurso de forma parcial
-router.patch("/updateBalance", async (req, res, next) => {
+async function updateBalnace(req, res, next) {
     try {
         const account = req.body
         const data = JSON.parse(await readFile(global.fileName))
@@ -123,7 +111,7 @@ router.patch("/updateBalance", async (req, res, next) => {
         if(account.balance == null || account.id == null) throw new Error("Id and Balance are required!")
         if(index === -1) throw new Error("This object not exists!")
 
-        data.accounts[index].balance = account
+        data.accounts[index].balance = account.balance
 
         await writeFile(global.fileName, JSON.stringify(data))
 
@@ -134,15 +122,14 @@ router.patch("/updateBalance", async (req, res, next) => {
     } catch (err) {
         next(err)
     }
-})
+}
 
+export default {
+    createAccount,
+    getAccounts,
+    getAccount,
+    deleteAccount,
+    updateAccount,
+    updateBalnace
 
-router.use((err, req, res, next) => {
-    logger.error(`${req.method} ${req.baseUrl} ${err.message}`)
-    res.status(400).send({ error: err.message })
-})
-
-
-
-
-export default router
+}

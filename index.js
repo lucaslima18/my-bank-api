@@ -1,6 +1,6 @@
 import express from "express"
 import winston from "winston"
-import accountsRouter from "./routes/accounts.js"
+import accountsRouter from "./routes/account.routes.js"
 import {promises as fs} from "fs"
 import cors from "cors"
 import swaggerUi from "swagger-ui-express"
@@ -50,9 +50,6 @@ app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 //importando rotas principais da api
 app.use("/account", accountsRouter)
-
-
-
 
 /**
  * armazenaremos as informações das nossas contas em um arquivo json

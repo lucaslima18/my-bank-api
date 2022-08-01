@@ -198,3 +198,136 @@ Error: listen EADDRINUSE: address already in use :::3000
 2022-08-01T21:35:38.265Z [my-bank-api] - info: API Started! listen on http://localhost:3000
 2022-08-01T21:36:10.211Z [my-bank-api] - info: GET /account success called!
 2022-08-01T21:36:32.092Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:19:32.598Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:19:35.248Z [my-bank-api] - error: GET /account readFile is not defined
+2022-08-01T23:19:57.571Z [my-bank-api] - info: POST /account - {"id":103,"name":"bruce banner322","balance":233,"status":"success"}
+2022-08-01T23:21:43.031Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:21:57.350Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:22:10.237Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:22:56.836Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:23:12.436Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:23:22.938Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:24:28.694Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:25:17.829Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:25:45.904Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:25:49.754Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:26:23.976Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:26:47.263Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:27:03.216Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:27:26.237Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:27:32.590Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:27:52.187Z [my-bank-api] - info: POST /account - {"id":104,"name":"bruce banner322","balance":233,"status":"success"}
+2022-08-01T23:27:55.100Z [my-bank-api] - error: PUT /account Id, Name and Balance are required!
+2022-08-01T23:28:11.911Z [my-bank-api] - error: PUT /account Cannot read property '4' of undefined
+2022-08-01T23:28:22.969Z [my-bank-api] - error: PUT /account Cannot read property '4' of undefined
+2022-08-01T23:28:26.824Z [my-bank-api] - error: PUT /account This object not exists!
+2022-08-01T23:28:33.006Z [my-bank-api] - error: PUT /account Cannot read property '5' of undefined
+2022-08-01T23:28:44.864Z [my-bank-api] - info: POST /account - {"id":2,"balance":221,"asd":"asdas"}
+2022-08-01T23:28:46.494Z [my-bank-api] - info: POST /account - {"id":2,"balance":221,"asd":"asdas"}
+2022-08-01T23:28:49.591Z [my-bank-api] - info: DELETE /account success called! deleting the 10 object
+2022-08-01T23:28:55.152Z [my-bank-api] - info: DELETE /account success called! deleting the 100 object
+2022-08-01T23:28:59.082Z [my-bank-api] - error: DELETE /account Object not found!
+2022-08-01T23:29:03.584Z [my-bank-api] - error: DELETE /account Object not found!
+2022-08-01T23:29:29.104Z [my-bank-api] - info: GET /account success called!
+2022-08-01T23:29:33.478Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-01T23:29:48.583Z [my-bank-api] - error: PUT /account Cannot read property '0' of undefined
+2022-08-01T23:32:17.778Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:32:35.902Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:32:57.106Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:32:59.810Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:33:00.381Z [my-bank-api] - error: PUT /account undefined
+2022-08-01T23:33:28.626Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:33:29.141Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:34:17.459Z [my-bank-api] - info: POST /account - {"id":2,"balance":221}
+2022-08-01T23:34:21.894Z [my-bank-api] - info: POST /account - {"id":2,"balance":22555}
+2022-08-01T23:34:28.891Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-01T23:34:45.332Z [my-bank-api] - info: POST /account - {"id":2,"balance":22555}
+2022-08-01T23:34:48.160Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-01T23:35:20.424Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:35:22.409Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-01T23:35:26.790Z [my-bank-api] - info: POST /account - {"id":2,"balance":22555}
+2022-08-01T23:35:29.579Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-01T23:36:50.233Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:36:51.599Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-01T23:36:54.187Z [my-bank-api] - info: 1
+2022-08-01T23:36:54.187Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:37:22.349Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:37:24.278Z [my-bank-api] - info: 0
+2022-08-01T23:37:24.279Z [my-bank-api] - error: PUT /account Cannot read property '0' of undefined
+2022-08-01T23:37:34.868Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:37:37.325Z [my-bank-api] - info: 0
+2022-08-01T23:37:37.325Z [my-bank-api] - error: PUT /account Cannot read property '0' of undefined
+2022-08-01T23:37:40.573Z [my-bank-api] - info: 0
+2022-08-01T23:37:40.574Z [my-bank-api] - error: PUT /account Cannot read property '0' of undefined
+2022-08-01T23:37:49.317Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:37:58.417Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:37:59.450Z [my-bank-api] - info: 1
+2022-08-01T23:37:59.451Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:38:23.036Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:38:23.622Z [my-bank-api] - info: 1
+2022-08-01T23:38:23.622Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:38:30.818Z [my-bank-api] - info: 1
+2022-08-01T23:38:30.819Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:38:44.704Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:38:45.599Z [my-bank-api] - info: [object Object]
+2022-08-01T23:38:45.599Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:39:03.911Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:39:05.811Z [my-bank-api] - info: [object Object]
+2022-08-01T23:39:05.812Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:39:10.367Z [my-bank-api] - info: [object Object]
+2022-08-01T23:39:10.367Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:39:16.785Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:39:19.773Z [my-bank-api] - info: [object Object]
+2022-08-01T23:39:19.774Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:39:37.780Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:39:39.688Z [my-bank-api] - info: [object Object]
+2022-08-01T23:39:39.689Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:40:06.762Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:40:07.807Z [my-bank-api] - error: PUT /account json is not defined
+2022-08-01T23:40:16.217Z [my-bank-api] - error: PUT /account json is not defined
+2022-08-01T23:40:34.381Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:40:36.572Z [my-bank-api] - info: 1
+2022-08-01T23:40:36.572Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:40:44.683Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:40:47.338Z [my-bank-api] - info: {"id":2,"name":"bruce banner editted","balance":233}
+2022-08-01T23:40:47.338Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:41:05.657Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:41:07.360Z [my-bank-api] - info: 2
+2022-08-01T23:41:07.361Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:41:23.919Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:41:25.131Z [my-bank-api] - info: 2
+2022-08-01T23:41:25.132Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:42:02.557Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:42:03.482Z [my-bank-api] - info: 2 2
+2022-08-01T23:42:03.483Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:42:24.825Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:42:26.027Z [my-bank-api] - info: 2
+2022-08-01T23:42:26.028Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:42:30.992Z [my-bank-api] - info: 2
+2022-08-01T23:42:30.993Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:42:51.568Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:42:52.299Z [my-bank-api] - info: 2
+2022-08-01T23:42:52.300Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:43:04.770Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:43:06.240Z [my-bank-api] - info: 1
+2022-08-01T23:43:06.241Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:43:09.278Z [my-bank-api] - info: 1
+2022-08-01T23:43:09.278Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:43:29.763Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:43:31.065Z [my-bank-api] - info: [object Object]
+2022-08-01T23:43:31.065Z [my-bank-api] - error: PUT /account Cannot set property 'name' of undefined
+2022-08-01T23:44:12.853Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:44:15.318Z [my-bank-api] - info: 1
+2022-08-01T23:44:15.319Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:45:04.896Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:45:11.728Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:45:12.160Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:45:23.190Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:45:38.805Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:45:39.577Z [my-bank-api] - error: PUT /account Cannot read property '1' of undefined
+2022-08-01T23:46:19.468Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:46:24.756Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:46:28.960Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:46:30.227Z [my-bank-api] - info: POST /account - {"id":2,"name":"bruce banner editted","balance":233}
+2022-08-01T23:46:34.662Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-01T23:46:38.779Z [my-bank-api] - info: GET /account success called!
