@@ -1,6 +1,4 @@
-import {promises as fs} from "fs"
-
-const {readFile, writeFile} = fs
+import AccountService from "../services/account.service.js"
 
 async function createAccount(req, res, next) {
     try{
@@ -8,16 +6,9 @@ async function createAccount(req, res, next) {
 
         if(!account.name || account.balance == null) throw new Error("Name and Balance are required!")
 
-        const data = JSON.parse(await readFile(global.fileName))
-        
-        account = { id: data.nextId++, name: account.name, balance: account.balance }
+        account = await AccountService.createAccount(account)
 
-        data.accounts.push(account)
-        //null, 2 no stringfy servem para formatar o documento
-        await writeFile(global.fileName, JSON.stringify(data, null, 2))
-        account.status = "success"
         res.send(account)
-
         logger.info(`POST /account - ${JSON.stringify(account)}`)
 
     } catch(err) {
@@ -30,11 +21,7 @@ async function createAccount(req, res, next) {
 
 async function getAccounts(_, res, next) {
     try {
-        const data = JSON.parse(await readFile(global.fileName))
-        delete data.nextId
-
-        res.send(data)
-
+        res.send(await AccountService.getAccounts())
         logger.info("GET /account success called!")
 
     } catch(err) {
@@ -45,11 +32,10 @@ async function getAccounts(_, res, next) {
 
 async function getAccount(req, res, next) {
     try {
-        const data = JSON.parse(await readFile(global.fileName))
-        const userById = data.accounts.find(account => account.id === parseInt(req.params.id))
-        const account = userById || res.status(404).send({ error: "User Not Found!" })
+        const id = req.params.id
+        const account = await AccountService.getAccount(id)
 
-        res.send(account)
+        account != false ? res.send(account) : res.status(404).send({ error: "User Not Found!" }) 
 
         logger.info("GET /account/:id success called!")
 
@@ -61,15 +47,8 @@ async function getAccount(req, res, next) {
 
 async function deleteAccount(req, res, next) {
     try {
-        const data = JSON.parse(await readFile(global.fileName))
-        const account_exist = data.accounts.find(account => account.id == req.params.id)
-        if(!account_exist) throw new Error("Object not found!")
-        
-        data.accounts = data.accounts.filter(
-            account => account.id !== parseInt(req.params.id)
-        )
+        await AccountService.deleteAccount(req.params.id)
 
-        await writeFile(global.fileName, JSON.stringify(data, null, 2))
         res.end()
         logger.info(`DELETE /account success called! deleting the ${req.params.id} object`)
 
@@ -81,17 +60,8 @@ async function deleteAccount(req, res, next) {
 
 async function updateAccount(req, res, next) {
     try {
-        const account = req.body
-        const data = JSON.parse(await readFile(global.fileName))
-        const index = data.accounts.findIndex(content => content.id == account.id)
-        
-        if(!account.name || account.balance == null || account.id == null) throw new Error("Id, Name and Balance are required!")
-        if(index === -1) throw new Error("This object not exists!")
-
-        data.accounts[index].name = account.name
-        data.accounts[index].balance = account.balance
-
-        await writeFile(global.fileName, JSON.stringify(data))
+        let account = req.body
+        account = await AccountService.updateAccount(account)
 
         res.send(account)
 
@@ -105,15 +75,7 @@ async function updateAccount(req, res, next) {
 async function updateBalnace(req, res, next) {
     try {
         const account = req.body
-        const data = JSON.parse(await readFile(global.fileName))
-        const index = data.accounts.findIndex(content => content.id === account.id)
-        
-        if(account.balance == null || account.id == null) throw new Error("Id and Balance are required!")
-        if(index === -1) throw new Error("This object not exists!")
-
-        data.accounts[index].balance = account.balance
-
-        await writeFile(global.fileName, JSON.stringify(data))
+        account = await AccountService.updateBalance(account)
 
         res.send(account)
 

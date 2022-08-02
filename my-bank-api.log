@@ -331,3 +331,63 @@ Error: listen EADDRINUSE: address already in use :::3000
 2022-08-01T23:46:30.227Z [my-bank-api] - info: POST /account - {"id":2,"name":"bruce banner editted","balance":233}
 2022-08-01T23:46:34.662Z [my-bank-api] - info: GET /account/:id success called!
 2022-08-01T23:46:38.779Z [my-bank-api] - info: GET /account success called!
+2022-08-01T23:54:11.775Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:59:13.750Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:59:39.771Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-01T23:59:53.412Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:05:58.576Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:06:07.039Z [my-bank-api] - info: GET /account success called!
+2022-08-02T00:06:21.802Z [my-bank-api] - error: POST /account readFile is not defined
+2022-08-02T00:06:47.425Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:06:52.907Z [my-bank-api] - info: POST /account - {"id":105,"name":"thor","balance":233,"status":"success"}
+2022-08-02T00:08:35.516Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:09:57.095Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:10:09.655Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:10:17.038Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:10:37.903Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:10:49.149Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:10:55.137Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:12:21.291Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:17:04.873Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T00:17:25.033Z [my-bank-api] - info: GET /account success called!
+2022-08-02T00:17:27.801Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-02T00:17:31.334Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-02T00:17:34.393Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-02T00:17:37.399Z [my-bank-api] - info: GET /account success called!
+2022-08-02T00:17:45.629Z [my-bank-api] - info: DELETE /account success called! deleting the 3 object
+2022-08-02T00:17:50.988Z [my-bank-api] - info: GET /account/:id success called!
+2022-08-02T01:26:11.097Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:26:15.426Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:26:29.340Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:26:39.576Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:26:58.343Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:27:03.423Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:27:16.588Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:28:24.826Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:28:31.381Z [my-bank-api] - error: DELETE /account Object not found!
+2022-08-02T01:28:35.344Z [my-bank-api] - error: DELETE /account Object not found!
+2022-08-02T01:28:38.925Z [my-bank-api] - error: DELETE /account req is not defined
+2022-08-02T01:29:35.305Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:29:39.668Z [my-bank-api] - info: DELETE /account success called! deleting the 4 object
+2022-08-02T01:31:21.979Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:31:28.452Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:31:39.205Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:32:04.093Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:32:11.273Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:32:33.324Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:33:14.313Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:33:42.146Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:33:45.901Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:34:04.340Z [my-bank-api] - error: PUT /account Assignment to constant variable.
+2022-08-02T01:35:57.590Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:36:00.131Z [my-bank-api] - info: POST /account - {"id":2,"name":"bruce banner editted 2.0","balance":233}
+2022-08-02T01:36:06.015Z [my-bank-api] - info: GET /account success called!
+2022-08-02T01:36:56.932Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:37:06.976Z [my-bank-api] - error: PUT /account This object not exists!
+2022-08-02T01:37:25.010Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:37:44.783Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:38:01.356Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:38:02.098Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:39:09.449Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:39:15.270Z [my-bank-api] - info: API Started! listen on http://localhost:3000
+2022-08-02T01:39:18.948Z [my-bank-api] - info: API Started! listen on http://localhost:3000
